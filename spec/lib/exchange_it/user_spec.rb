@@ -1,8 +1,4 @@
 # frozen_string_literal: true
-# запустить тесты
-# rspec .  # все
-# bundle exec rspec spec/lib/exchange_it/user_spec.rb # опредленный
-# rspec spec/lib/exchange_it/user_spec.rb # опредленный
 RSpec.describe ExchangeIt::User do
   let(:user){described_class.new 'Feda', 'Ivanov'}
   let(:user_no_name){described_class.new nil, 'Ivanov'}
